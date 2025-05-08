@@ -18,6 +18,6 @@ jobs:
         cache: true
         cache-dependency-path: src/Captura/packages.lock.json
     - name: Restore project
-      run: dotnet restore --locked-mode src/Captura.sln
+      run: dotnet restore src/Captura.sln
     - name: Build project
       run: dotnet build src/Captura.sln
