@@ -1,5 +1,6 @@
 <Project>
  <PropertyGroup>
    <LangVersion>8</LangVersion>
+   <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
  </PropertyGroup>
 </Project>
