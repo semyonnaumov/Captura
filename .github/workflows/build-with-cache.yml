@@ -19,4 +19,4 @@ jobs:
     - name: Restore project
       run: dotnet restore --locked-mode src/Captura.sln
     - name: Build project
-      run: dotnet build
+      run: dotnet build src/Captura.sln
